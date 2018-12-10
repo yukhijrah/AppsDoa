@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/namaDoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:text="Ini Nama" />
+
+    <TextView
+        android:id="@+id/ayatDoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textSize="24dp"
+        android:text="رَضِتُ بِااللهِ رَبَا وَبِالْاِسْلاَمِ دِيْنَا وَبِمُحَمَّدٍ نَبِيَا وَرَسُوْلاَ رَبِّ زِدْ نِيْ عِلْمًـاوَرْزُقْنِـيْ فَهْمًـا" />
+
+    <TextView
+        android:id="@+id/artiDoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:text="Kami ridho Allah Swt sebagai Tuhanku, Islam sebagai agamaku, dan Nabi Muhammad sebagai Nabi dan Rasul, Ya Allah, tambahkanlah kepadaku ilmu dan berikanlah aku pengertian yang baik" />
+
+</LinearLayout>
